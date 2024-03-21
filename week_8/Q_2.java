@@ -30,3 +30,7 @@ public class Q_2 {
         palindrome.checkPalindrome();
     }
 }
+
+//output:
+//Enter the String: madam
+//Palindrome

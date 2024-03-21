@@ -28,3 +28,9 @@ public class Q_1 {
         System.out.println("Factorial of " + num2 + " = " + fact2);
     }
 }
+
+//Output:
+//Enter a Number(Input through BufferReader): 5
+//Enter a Number(Input through Scanner class): 4
+//Factorial of 4 = 24
+//Factorial of 5 = 120

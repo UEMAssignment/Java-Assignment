@@ -13,3 +13,9 @@ public class Q_3 {
         System.out.println("Merged String: " + str1 + str2);
     }
 }
+//Output:
+//Enter first String:
+//Java
+//Enter second String:
+//Assignment
+//Merged String: JavaAssignment

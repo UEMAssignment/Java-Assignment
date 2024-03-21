@@ -8,10 +8,14 @@ public class Q_4 {
         System.out.println("Enter a String: ");
         String str = scanner.nextLine();
         scanner.close();
-        String revStr = "";
+        StringBuilder revStr = new StringBuilder();
         for (int i = str.length() - 1; i >= 0; i--) 
-            revStr += str.charAt(i);
+            revStr.append(str.charAt(i));
         
         System.out.println("Reversed String is: " + revStr);
     }
 }
+//Output:
+//Enter a String:
+//JAVA program
+//Reversed String is: margorp AVAJ
