@@ -2,12 +2,12 @@ package week_5;
 
 import java.util.Scanner;
 
-class Employee {
+class Employe {
     private int empId;
     private String empName;
     private double basicSalary;
 
-    public Employee(int empId, String empName, double basicSalary) {
+    public Employe(int empId, String empName, double basicSalary) {
         this.empId = empId;
         this.empName = empName;
         this.basicSalary = basicSalary;
@@ -42,7 +42,7 @@ public class Q_6 {
         System.out.print("Enter Basic Salary: ₹");
         double basicSalary = sc.nextDouble();
 
-        Employee employee = new Employee(empId, empName, basicSalary);
+        Employe employee = new Employe(empId, empName, basicSalary);
         employee.displayEmployeeDetails();
 
         sc.close();
