@@ -16,13 +16,13 @@ public class Q_1 {
         System.out.print("Enter a Number(Input through BufferReader): ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int num2 = Integer.parseInt(br.readLine());
-        int fact2 = Q_1.fact(num2);
+        int fact2 = fact(num2);
 
         System.out.print("Enter a Number(Input through Scanner class): ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         sc.close();
-        int fact1 = Q_1.fact(num);
+        int fact1 = fact(num);
         
         System.out.println("Factorial of " + num + " = " + fact1);
         System.out.println("Factorial of " + num2 + " = " + fact2);
