@@ -3,18 +3,18 @@ package week_5;
 import java.lang.Math;
 import java.util.Scanner;
 
-class Circle {
+class Circle2 {
     private double radius;
     private String color;
 
     // Default constructor
-    Circle() {
+    Circle2() {
         radius = 1.0;
         color = "red";
     }
 
     // Constructor with radius parameter
-    Circle(double radius) {
+    Circle2(double radius) {
         this.radius = radius;
         color = "red";
     }
@@ -31,7 +31,7 @@ class Circle {
 public class Q_11 {
     public static void main(String[] args) {
         // Using default constructor
-        Circle circle1 = new Circle();
+        Circle2 circle1 = new Circle2();
         System.out.println("Circle 1 - Radius: " + circle1.getRadius() + ", Area: " + circle1.getArea());
 
         Scanner sc = new Scanner(System.in);
@@ -39,7 +39,7 @@ public class Q_11 {
         double radius = sc.nextDouble();
         sc.close();
         // Using constructor with radius parameter
-        Circle circle2 = new Circle(radius);
+        Circle2 circle2 = new Circle2(radius);
         System.out.println("Circle 2 - Radius: " + circle2.getRadius() + ", Area: " + circle2.getArea());
     }
 }
