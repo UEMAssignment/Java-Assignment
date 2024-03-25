@@ -36,15 +36,3 @@ public class TemperatureConverter {
         }
     }
 }
-
-class TooHotException extends Exception {
-    public TooHotException() {
-        super("Temperature is too hot");
-    }
-}
-
-class TooColdException extends Exception {
-    public TooColdException() {
-        super("Temperature is too cold");
-    }
-}
